@@ -5,7 +5,7 @@
     <body>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
         <script>
-        $(document).on("ready", function(){
+        $(document).ready(function() {
             var settings = {
                 "async": true,
                 "crossDomain": true,
@@ -15,10 +15,11 @@
                     "x-rapidapi-host": "skyscanner-skyscanner-flight-search-v1.p.rapidapi.com",
                     "x-rapidapi-key": "f655d74b8dmsh7124e9f74a7fa7ep1abd4ajsn3b73d28c941a"
                 }
-            }});
-            $.ajax(settings).done(function (response) {
+            }
+            $.ajax(settings).then(function (response) {
                 console.log(response);
-            });
+            });});
+            
             </script>
     </body>
 </html>
