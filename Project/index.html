@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather-or-not</title>
+
+
+    <link rel="stylesheet" href="../material-kit-master/assets/css/material-kit.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylez.css">
+</head>
+
+<body>
+    <!--        info navbar -->
+    <nav class="navbar navbar-expand-lg bg-info">
+        <div class="container">
+            <div class="navbar-translate">
+                <a class="navbar-brand" href="#0">WEATHER OR NOT</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="active nav-item">
+                        <a href="#pablo" class="nav-link">
+                            Discover Flights
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#pablo" class="nav-link">
+                            Instructions
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#pablo" class="nav-link">
+                            Account Settings
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end of nav bar -->
+
+
+    <!-- jumbotron -->
+    <div class="jumbotron jumbotron-fluid b">
+        <div class="container">
+            <h1 class="display-4">Weather or Not!</h1>
+            <p class="lead">the finest place in all the lands to book a flight! pick a date, pick a location and you're
+                off on a sweet vacation.
+                Then we can tell you WEATHER OR NOT, you'll need a jacket, a parka or flip flops when you land.</p>
+        </div>
+    </div>
+    <!-- end of Jumbotron -->
+
+    <!-- date and time picker -->
+    <!-- <div class="row">
+        <div class="col-md-6">
+            <div class="form-group bmd-form-group is-filled b">
+                <label class="label-control bmd-label-static">Datetime Picker</label>
+                <input type="text" class="form-control datetimepicker" value="10/05/2016">
+            </div>
+        </div>
+    </div> -->
+
+
+    <div class="row">
+        <!-- flights -->
+        <div class="col-md-4 b">
+            <table class="table">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">Flight #</th>
+                        <th scope="col">departure location</th>
+                        <th scope="col">departure time</th>
+                        <th scope="col">arrival location</th>
+                        <th scope="col">arrival time</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Austin, Tx</td>
+                        <td>April 20, 2020 @4:20 am</td>
+                        <td>San Diego, Cal</td>
+                        <td>April 20, 2020 @5:20 am</td>
+
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Austin, Tx</td>
+                        <td>February 30, 2020 @5:15 pm</td>
+                        <td>Banff, Canada</td>
+                        <td>February 30, 2020 @9:40 pm</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Austin, Tx</td>
+                        <td>January 25, 2020 @2:30 pm</td>
+                        <td>London, England</td>
+                        <td>January 26, 2020 @12:30 pm</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>Austin, Tx</td>
+                        <td>March 18th, 2020 @6:00 am</td>
+                        <td>Maranello, Italy</td>
+                        <td>March 19th, 2020 @9:00 am</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">5</th>
+                        <td>Austin, Tx</td>
+                        <td>February 14 2020, @8:30 pm</td>
+                        <td>Cape Town, South Africa</td>
+                        <td>February 16 2020, @12:30 pm</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+        <!-- weather -->
+        <div class="jumbotron jumbotron-fluid b">
+            <div class="container">
+                <h1 class="display-4">Weather of the location displayed here</h1>
+                <p class="lead">San Diego will be warm and sunny at 74 degrees when you arrive. A T-shirt and Shorts are
+                    recommended.
+                    Sunscreen optional, Sunglasses required. </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+/* our CSS */
+.col-md-4.b {
+    width: 100%;
+    margin: auto;
+    padding-top:5%;
+    /* padding-left: 10%; */
+  }
+  
+  .jumbotron.jumbotron-fluid.b {
+    margin: auto;
+    width: 60%;
+  }
+  
+  body {
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
