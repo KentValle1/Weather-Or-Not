@@ -15,10 +15,10 @@ App that allows you to find the cheapest flights with the  most favorable weathe
 ## SKETCH OF THE DESIGN:
 
 ### PAGE ONE:
-!["First Page"](https://raw.githubusercontent.com/KentValle1/Weather-Or-Not/tree/master/docs/img/first_page.png)
+!["First Page"](https://github.com/KentValle1/Weather-Or-Not/blob/matt/docs/img/first_page.png?raw=true)
 
 ### PAGE TWO:
-!["Second Page"](https://raw.githubusercontent.com/KentValle1/Weather-Or-Not/tree/master/docs/img/second_page.png)
+!["Second Page"](https://github.com/KentValle1/Weather-Or-Not/blob/matt/docs/img/second_page.png?raw=true)
 
 ## APIs to be used:
 * [Sky Scanner] (https://skyscanner.github.io/slate/)
