@@ -20,13 +20,13 @@ View our city list at URL. You can add a custom city you'd like to include in th
 
 ## Design:
 ### Main Page
-!["Main Page"](https://github.com/KentValle1/Weather-Or-Not/blob/matt/docs/img/first_page.png?raw=true)
+!["Main Page"](https://github.com/KentValle1/Weather-Or-Not/blob/matt/wireframes/main.png?raw=true)
 
 ### Flight Search
-!["Flight Search"](https://github.com/KentValle1/Weather-Or-Not/blob/matt/docs/img/second_page.png?raw=true)
+!["Flight Search"](https://github.com/KentValle1/Weather-Or-Not/blob/matt/wireframes/flight.png?raw=true)
 
 ### Edit Cities
-!["Edit Cities"](https://github.com/KentValle1/Weather-Or-Not/blob/matt/docs/img/second_page.png?raw=true)
+!["Edit Cities"](https://github.com/KentValle1/Weather-Or-Not/blob/matt/wireframes/cities.png?raw=true)
 
 ## APIs to be used:
 * [Sky Scanner](https://skyscanner.github.io/slate/)
