@@ -22,7 +22,8 @@ App that allows you to find the cheapest flights with the  most favorable weathe
 
 ## APIs to be used:
 * [Sky Scanner](https://skyscanner.github.io/slate/)
-* [Accuweather](https://developer.accuweather.com)
+* [NWS](https://api.weather.gov)
+https://api.weather.gov/gridpoints/EAX/40,48/forecast
 
 ## ROUGH BREAKDOWN OF TASKS:
 1. Pick A Destination (country, airport)
