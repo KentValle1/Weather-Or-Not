@@ -34,8 +34,8 @@ View our city list at URL. You can add a custom city you'd like to include in th
 
 ## User Stories and Dev Tasks
 ### User Stories
-1. As a user, I need the ability to select one or more types of weather. 
+1. As a user, I need the ability to select one or more types of weather so that I can pick which type I want. 
 2. As a front end developer, I need the function to call to search for the cities that have the specific weather. 
-3. As a user, I need to select the cities that I would like to search for. 
+3. As a user, I need to select the cities that I would like to search for so that I can exclude cities I don't wish to travel to. 
 4. As a front end developer, I need the function to call to search flights for the cities that were selected. 
-5. As a user, I need the ability to add cities to the default list. 
+5. As a user, I need the ability to add cities to the default list so I can customise the list. 

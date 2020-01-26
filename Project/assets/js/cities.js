@@ -1,8 +1,14 @@
 let cities = [
     {
-        cityName: ""
+        cityName: "",
         airpotCode: "LAX",
         lat: "",
         long: ""
-    }
+    }, 
+    {
+        cityName: "",
+        airpotCode: "AUS",
+        lat: "",
+        long: ""
+    }, 
 ];
