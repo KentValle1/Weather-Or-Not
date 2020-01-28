@@ -1,25 +1,39 @@
 <!DOCTYPE html>
 <html>
-    <head>
-    </head>
-    <body>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-        <script>
-        $(document).ready(function() {
+<head>
+</head>
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
             var settings = {
                 "async": true,
                 "crossDomain": true,
-                "url": "https://skyscanner-skyscanner-flight-search-v1.p.rapidapi.com/apiservices/browsequotes/v1.0/US/USD/en-US/SFO-sky/JFK-sky/2020-09-01?inboundpartialdate=2020-12-01",
+                "url": "https://skyscanner-skyscanner-flight-search-v1.p.rapidapi.com/apiservices/browsedates/v1.0/US/USD/en-US/SFO-sky/AUS-sky/2020-01-30",
                 "method": "GET",
                 "headers": {
                     "x-rapidapi-host": "skyscanner-skyscanner-flight-search-v1.p.rapidapi.com",
-                    "x-rapidapi-key": "f655d74b8dmsh7124e9f74a7fa7ep1abd4ajsn3b73d28c941a"
+                    "x-rapidapi-key": "1673482102msh3fc68fcada9e903p14731fjsn21ac75f081a8"
                 }
             }
-            $.ajax(settings).then(function (response) {
+            $.ajax(settings).done(function (response) {
                 console.log(response);
-            });});
-            
-            </script>
-    </body>
+                for (var i = 0; i < response.Quotes.length; i++) {
+                    var quote = response.Quotes[i].MinPrice
+                    var departdate = response.Quotes[i].OutboundLeg.DepartureDate
+                    var quotedate = response.Quotes[i].QuoteDateTime
+                    var departdateFix = departdate.slice(0, 10)
+                    var quotedateFix = quotedate.slice(11,19)
+                    console.log(quote)
+                    console.log(departdateFix)
+                    console.log(quotedateFix)
+                }
+                for (var i = 0; i < response.Carriers.length; i++) {
+                    var carrier = response.Carriers[i].Name
+                    console.log(carrier)
+                }
+            });
+        });
+    </script>
+</body>
 </html>
